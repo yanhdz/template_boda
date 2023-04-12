@@ -46,7 +46,7 @@ button:focus {
 
 a.btn {
 	font-family: 'Merriweather', serif;
-	background: #0dd0e2 !important;
+	background: #f4c47a !important;
 	font-weight: bold;
 	color: #fff !important;
 	text-transform: uppercase;
@@ -59,7 +59,7 @@ a.btn {
 
 a.btn:before {
 	content: "";
-	background: rgba(5,135,147, 0.6);
+	background: rgba(245, 178, 10, 0.6);
 	width: 0%;
 	height: 100%;
 	position: absolute;
@@ -87,10 +87,10 @@ a.btn:hover {
 }
 
 .section-title .col {
-	padding-left: 44px !important;
+	padding-left: 0px !important;
 	padding-right: 0;
 	position: absolute;
-	top: 294px;
+	top: 285px;
 }
 
 .section-title span {
@@ -114,7 +114,7 @@ a.btn:hover {
 	line-height: 14px;
 	font-weight: bold;
 	font-style: italic;
-	color: #0dd0e2 !important;
+	color: #f4c47a !important;
 	margin: 0;
 }
 
@@ -180,7 +180,7 @@ a.btn:hover {
 }
 
 .site-loder .lode-wrap span {
-    background-color: #0dd0e2;
+    background-color: #f4c47a;
     width: 40px;
     height: 40px;
     position: absolute;
@@ -231,7 +231,7 @@ header .smaller #navbar {
 }
 
 header .smaller #navbar .dropdown-menu {
-	background-color: #0dd0e2;
+	background-color: #f4c47a;
 }
 
 header .smaller #navbar .dropdown-menu a:hover {
@@ -286,11 +286,11 @@ header {
 
 #navbar > ul > li > a:hover {
 	background-color: transparent;
-	color: #0dd0e2;
+	color: #f4c47a;
 }
 
 .tog-nav {
-	background: #0dd0e2;
+	background: #f4c47a;
 	width: 93px;
 	height: 106px;
 	border: 0;
@@ -347,7 +347,7 @@ header {
 .tog-nav:active,
 .tog-nav:focus,
 .tog-nav:hover {
-	background: #0dd0e2 !important;
+	background: #f4c47a !important;
 	color: #fff !important;
 }
 
@@ -443,7 +443,7 @@ header {
 }
 
 .hero .title h2 span {
-	color: #0dd0e2;
+	color: #f4c47a;
 }
 
 .hero .title p {
@@ -544,7 +544,7 @@ header {
 .couple .heart i {
 	display: block;
 	font-size: 35px;
-	color: #0dd0e2;
+	color: #f4c47a;
 	margin-bottom: 17px;
 }
 
@@ -656,17 +656,17 @@ header {
 
 /*conversation*/
 .our-story .conversation {
-	padding-bottom: 64px;
+	padding-bottom: 81px;
 	position: relative;
 }
 
 .our-story .conversation:after {
 	content: "";
-	width: 1020px;
-	height: 64px;
+	width: 820px;
+	height: 164px;
 	background: url(../images/story/bottom-bg.png) no-repeat;
 	position: absolute;
-	left: 50%;
+	left: 55%;
 	bottom: 0;
 	-webkit-transform: translate(-50%);
 	transform: translate(-50%);
@@ -816,7 +816,7 @@ header {
 }
 
 .conversation .owl-theme .owl-controls .active span {
-	background: #0dd0e2 !important;
+	background: #f4c47a !important;
 }
 
 
@@ -830,7 +830,7 @@ header {
 	font-family: 'Merriweather', serif;
 	font-size: 26px;
 	font-weight: bold;
-	color: #0dd0e2;
+	color: #f4c47a;
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -925,7 +925,7 @@ header {
 	-webkit-transform-origin: left bottom;
 	transform: skewY(10deg);
 	transform-origin: left bottom;
-} 
+}
 
 .coming-soon .bottom-shape:after {
 	content: "";
@@ -984,8 +984,8 @@ header {
 
 .count-down-wrapper .wrapper-digit {
 	position: absolute;
-	left: 52%;
-	top: 54%;
+	left: 62%;
+	top: 44%;
 	-webkit-transform: translate(-52%, -54%);
 	transform: translate(-52%, -54%);
 	text-align: center;
@@ -1005,7 +1005,7 @@ header {
 	font-family: 'Merriweather', serif;
 	font-size: 16px;
 	font-weight: bold;
-	color: #0dd0e2;
+	color: #f4c47a;
 	text-transform: uppercase;
 	margin: 0;
 }
@@ -1099,7 +1099,7 @@ header {
 }
 
 .wedding-reciption ul li i {
-	background: #0dd0e2;
+	background: #f4c47a;
 	display: inline-block;
 	width: 50px;
 	height: 50px;
@@ -1145,7 +1145,7 @@ header {
 
 .wedding-reciption .view a {
 	font-family: 'Merriweather', serif;
-	background: #07bccd;
+	background: #f4c47a;
 	width: 104px;
 	height: 104px;
 	line-height: 104px;
@@ -1166,7 +1166,7 @@ header {
 	content: "";
 	width: 100%;
 	height: 100%;
-	background: rgba(5,135,147, 0.6);
+	background: rgba(234, 147, 9, 0.63);
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -1237,7 +1237,7 @@ header {
 
 .gallery .gallery-content button {
 	font-family: 'Merriweather', serif;
-	background-color: #0dd0e2;
+	background-color: #f4c47a;
 	width: 350px;
 	height: 50px;
 	line-height: 50px;
@@ -1264,7 +1264,7 @@ header {
 	background: transparent;
 	width: 75%;
 	height: 77%;
-	border: 5px solid #0dd0e2;
+	border: 5px solid #f4c47a;
 	border-radius: 50%;
 	text-align: center;
 	position: absolute;
@@ -1305,7 +1305,7 @@ header {
 	line-height: 30px;
 	text-align: center;
 	text-transform: uppercase;
-	background: #0dd0e2;
+	background: #f4c47a;
 	color: #fff;
 	padding: 0;
 	border: 0 !important;
@@ -1353,7 +1353,7 @@ header {
 
 .gift-registry:before {
 	content: "";
-	background: rgba(13,208,226,0.9);
+	background: rgba(134 120 96,0.9);
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -1440,7 +1440,7 @@ header {
 	font-size: 40px;
 	font-weight: bold;
 	font-style: italic;
-	color: #0dd0e2;
+	color: #f4c47a;
 	margin: 0 0 1.1em;
 }
 
@@ -1496,7 +1496,7 @@ header {
 #blog-details .form label.error,
 .rsvp .form label.error{
 	padding-top:10px;
-	color:#ff0000;	
+	color:#ff0000;
 }
 
 .rsvp .form input[type="text"],
@@ -1529,7 +1529,7 @@ header {
 .rsvp form .btn,
 #blog-details form .btn {
 	font-family: 'Merriweather', serif;
-	background: #0dd0e2;
+	background: #f4c47a;
 	width: 300px;
 	height: 60px;
 	line-height: 60px;
@@ -1548,7 +1548,7 @@ header {
 .rsvp form .btn:before,
 #blog-details form .btn:before {
 	content: "";
-	background: rgba(5,135,147, 0.6);
+	background: rgba(245, 178, 10, 0.6);
 	width: 0%;
 	height: 100%;
 	position: absolute;
@@ -1602,7 +1602,7 @@ footer {
 
 .footer-wrapper:after {
 	content: "";
-	background: rgba(13,208,226,0.9);
+	background: rgba(134 120 96);
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -1680,10 +1680,10 @@ footer .social-links li i:after {
 }
 
 footer .social-links li a:hover {
-	background: #0dd0e2;
+	background: #f4c47a;
 	box-shadow: 0 0 0 2px #fff;
 	border-radius: 2px;
-	color: #0dd0e2;
+	color: #f4c47a;
 }
 
 footer .social-links li a:hover i:after {
@@ -1694,7 +1694,7 @@ footer .social-links li a:hover i:after {
 
 /*copyright*/
 footer .copyright {
-	background: #018c99;
+	background: #867860;
 	position: relative;
 	z-index: 10;
 	text-align: center;
@@ -1808,7 +1808,7 @@ footer .copyright {
 
 /*time*/
 .ceremony .left-col .time {
-	background: #0dd0e2;
+	background: #f4c47a;
 	text-align: center;
 	color: #fff;
 	padding-bottom: 40px;
@@ -1817,7 +1817,7 @@ footer .copyright {
 
 .ceremony .left-col .time h3 {
 	font-family: 'Arimo', sans-serif;
-	background-color: #0dd0e2;
+	background-color: #f4c47a;
 	width: 140px;
 	height: 140px;
 	border-radius: 50%;
@@ -1880,7 +1880,7 @@ footer .copyright {
 	font-size: 13px;
 	font-weight: bold;
 	font-style: italic;
-	color: #0dd0e2;
+	color: #f4c47a;
 }
 
 .ceremony .right-col h3 + span i {
@@ -2118,10 +2118,5 @@ footer .copyright {
 	font-size: 16px;
 	font-weight: bold;
 	font-style: italic;
-	color: #0dd0e2;
+	color: #f4c47a;
 }
-
-
-
-
-
