@@ -458,6 +458,26 @@
 	
 	
 	@media only screen and (max-width:480px){
+		.count-down-wrapper .wrapper-digit {
+			top: 56%;
+			-webkit-transform: translate(-52%, -56%);
+			transform: translate(-52%, -56%);
+		}
+
+		.count-down-wrapper .time > div {
+			background: url(../img/clock-bg-sm.png) no-repeat center 0;
+			width: 200px;
+			height: 202px;
+		}
+
+		.count-down-wrapper .wrapper-digit div {
+			font-size: 30px;
+			height: 33px !important;
+		}
+
+		.count-down-wrapper .wrapper-digit p {
+			font-size: 14px;
+		}
 	.photo-container .mix {
 		width:100%;
 		height:auto;

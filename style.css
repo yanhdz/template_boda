@@ -108,7 +108,7 @@ outline : 0;
 }
 
 .count-down-wrapper .time > div {
-	background: url(img/clock-bg.png) no-repeat center 0;
+	background: url(img/clock-bg-sm.png) no-repeat center 0;
 	width: 289px;
 	height: 291px;
 	margin: 0 auto;
@@ -382,7 +382,7 @@ section h2.section-heading {
 margin-top : 0;
 margin-bottom : 15px;
 font-size : 57px;
-color:#393838;	
+color:#b98d09 !important;
 font-weight:400;
 }
 section h3.section-subheading {
@@ -683,7 +683,7 @@ a.read_more:hover{
 	}
 .family_member_wrap{
 	width:100%;
-	background:#F7F4F4;
+	background:#FFFFFF;
 	padding:52px 0px 83px;
 	}
 .family_member_wrap h2.family_title{
@@ -2505,7 +2505,7 @@ div#tags{
 	margin:42px auto 0;
 	}
 .round .br_grm:hover{
-	background:#FBF7F7;
+	background:#FFFFFF;
 	}
 .round .br_grm:hover .brgm_overlay{
 	opacity:0;
