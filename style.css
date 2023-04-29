@@ -108,7 +108,7 @@ outline : 0;
 }
 
 .count-down-wrapper .time > div {
-	background: url(img/clock-bg-sm.png) no-repeat center 0;
+	background: url(img/clock-bg.png) no-repeat center 0;
 	width: 289px;
 	height: 291px;
 	margin: 0 auto;
@@ -1873,6 +1873,35 @@ http://tympanus.net/Development/GridNavigationEffects/example5.html
 ::-webkit-input-placeholder {
    color: #fa3737;
 }
+
+
+.ceremony {
+	background-color: #e8d2a9;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	overflow: scroll;
+	display: none;
+}
+
+.ceremony .container {
+	background-color: #fff;
+	margin: 100px auto;
+	position: relative;
+}
+
+.ceremony .container .close {
+	background: #fff;
+	position: absolute;
+	z-index: 100;
+	opacity: 1;
+	padding: 10px;
+	color: #e7d0a7;
+	right: 0;
+}
+
 
 :-moz-placeholder { /* Firefox 18- */
    color: #696969;  
