@@ -24,7 +24,38 @@
 	<link rel="stylesheet" href="css/smoothslides.theme.css">
 	<link rel="stylesheet" href="style.css">
     <link href="css/responsive.css" rel="stylesheet">
+	<script>
 
+
+
+		window.addEventListener("load", function() {
+			document.body.addEventListener("mousemove", function () {
+				var audio = document.getElementById("audio");
+				audio.play();
+			})
+
+			var audio = document.getElementsByTagName("audio")[0];
+			var muteButton = document.getElementById("stopMusic");
+			var musicIcon = muteButton.querySelector("i");
+
+			muteButton.addEventListener("click", function() {
+
+				if (audio.muted) {
+					audio.muted = false;
+					musicIcon.classList.remove("fa-microphone-slash");
+					musicIcon.classList.add("fa-music");
+
+				} else {
+					audio.muted = true;
+					musicIcon.classList.remove("fa-music");
+					musicIcon.classList.add("fa-microphone-slash");
+				}
+			});
+		});
+
+
+
+	</script>
 </head>
 
 <body id="page-top" class="index four">
@@ -57,18 +88,20 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
+
     <div id="preloader">
-		<div id="status">
-			<div id="bowlG">
-				<div id="bowl_ringG">
-					<div class="ball_holderG">
-					<div class="ballG"><div id="heart"></div></div>
-					</div>
-				</div>
-			</div><!-- #bowlG -->
-			<img id="logo_n" src="img/logo.png" width=160 alt="Couple Logo" />
-		</div><!-- #status -->
+<style>
+
+
+</style>
+			<!-- #bowlG -->
+			<img id="logo_n" src="img/mascara.png" width=700 alt="Couple Logo" />
+		<br></br>
+		<a href="#" id="hidePreloader"
+		   class="btn btn-modal" style="font-size: 1.3rem !important;">Ver invitación</a>
 	</div> <!-- #preloader -->
+
+
     <!-- Header -->
     <header>
 		 <div class="container-fluid">
@@ -125,9 +158,13 @@
 				</section><!--/#main-slider-->
 			</div><!-- row -->
         </div><!-- container-fluid -->
+
+
     </header>
-	
-	<!--Bride Groom Section-->
+
+
+
+ <!--Bride Groom Section-->
     <section id="bride_groom_sec" class="wedding-sec bride_groom_sec bride_groom_sec_2 round">
 	    <div class="container">
 		    <div class="row">
@@ -135,6 +172,7 @@
                     <div class="section-head">
 					     <h2 class="section-heading">Novia & Novio</h2>
 					     <div class="bottom-dash"></div>
+
 
 				   </div><!-- section-head -->
                 </div><!-- col-lg-12 -->
@@ -179,14 +217,14 @@
 							<div id="family_member1" class="family_mem_carosel">
 								<div class="item">
 
-									<h3>John Connor</h3>
-									<p class="relation">father</p>
+									<h3>Jesús Ernesto Durazo Durazo </h3>
+									<p class="relation">Padre</p>
 
 								</div>
 								<div class="item Up">
 
-									<h3>john Connor</h3>
-									<p class="relation">mother</p>
+									<h3>Virginia Diaz Fonseca</h3>
+									<p class="relation">Madre</p>
 
 								</div>
 
@@ -199,14 +237,14 @@
 							<div id="family_member2" class="family_mem_carosel">
 								<div class="item">
 
-									<h3>John Connor</h3>
-									<p class="relation">father</p>
+									<h3>Mario Alberto Langarica Casarez</h3>
+									<p class="relation">Padre</p>
 
 								</div>
 								<div class="item">
 
-									<h3>John Connor</h3>
-									<p class="relation">mother</p>
+									<h3>Marina Alejandra Gonzalez Monreal</h3>
+									<p class="relation">Madre</p>
 
 								</div>
 
@@ -217,6 +255,36 @@
 				</div>
 			</div>
 		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<div class="section-head">
+						<h2 class="section-heading">Padrinos de Velación</h2>
+						<div class="bottom-dash"></div>
+
+
+					</div><!-- section-head -->
+				</div><!-- col-lg-12 -->
+			</div><!-- row -->
+		</div><!-- container -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="br_grm">
+
+						<h3>Elsa Diaz Fonseca</h3>
+
+					</div><!-- br_grm -->
+				</div><!-- col-md-6 -->
+				<div class="col-md-6">
+					<div class="br_grm">
+
+						<h3>Omar Castro Ambriz</h3>
+
+					</div><!-- br_grm -->
+				</div><!-- col-md-6 -->
+			</div><!-- row -->
+		</div><!-- container -->
 	</section>
 	<!--Bride Groom Section End-->
 	
@@ -717,9 +785,8 @@
 									<h2>Salón</h2>
 									 <div class="evnt_addres">
 										 <p>Salón Roma</p>
-										 <p>Blvd. Lázaro Cárdenas, Nuevo Mexicali, 21399 Mexicali, B.C.</p>
-										 <p>8:00PM</p>
-										 <a href="#" id="show-wedding-ceremony">Ubicación</a>
+										 <img src="img/salon.jpeg" width="60%"/>
+										 <a href="#" id="show-wedding-ceremony"><i class="fa fa-map-marker"></i>Ubicación</a>
 									 </div>
 								</div><!--.card .back .evnt_prt_back .evnt_prt_back_2-->
 							</div><!-- .cards-->
@@ -751,6 +818,70 @@
 			</div><!--Parallex section 3-->
 		</div><!--Parallex section 3-->
 	</section>
+
+ <section id="bmaid_sssgmen" class="wedding-sec bmaid_gmen_sec four">
+	 <div class="container">
+		 <div class="row">
+			 <div class="col-lg-12 text-center">
+				 <div class="section-head">
+
+					 <div class="bottom-dash Down"></div>
+
+				 </div><!-- .section-head -->
+			 </div><!-- .col-lg-12 -->
+		 </div><!-- .row -->
+
+		 <div class="container-fluid" id="noninos">
+			 <div class="container pb-5">
+				 <div class="row">
+					 <div class="col-lg-12 text-center">
+						 <div class="section-head">
+							 <h2 class="section-heading"> Código de Vestimenta</h2>
+							 <div class="bottom-dash"></div>
+
+						 </div><!--.section-head-->
+					 </div><!--.col-lg-12-->
+				 </div><!--.row-->
+				 <div class="row">
+					 <div class="col-md-6 mt-5">
+						 <div class="row p-0 m-0">
+							 <div class="col-md-12 text-center">
+								 <div class="wthree_title_agile">
+									 <h1 class="font-2 titulo-1 c-titulo text-center _animate__fadeInDown animate__animated animate__fadeInDown" style="visibility: visible;">Formal</h1>
+								 </div>
+							 </div>
+						 </div>
+						 <div class="row">
+							 <div class="col-md-12 text-center mt-3 _animate__zoomIn animate__slow animate__animated animate__zoomIn" style="visibility: visible;">
+								 <img src="./img/cv.png" width="100%">
+							 </div>
+							 <div class="col-md-12 text-center mt-4 _animate__zoomIn animate__slow animate__animated animate__zoomIn" style="visibility: visible;">
+
+							 </div>
+						 </div>
+					 </div>
+					 <div class="col-md-6 mt-5">
+						 <div class="row p-0 m-0">
+							 <div class="col-md-12 text-center">
+								 <div class="wthree_title_agile">
+									 <h1 class="font-2 titulo-1 c-titulo text-center _animate__fadeInDown animate__animated animate__fadeInDown" style="visibility: visible;">Respetuosamente, no niños</h1>
+								 </div>
+							 </div>
+						 </div>
+						 <div class="row">
+							 <div class="col-md-12 text-center mt-3 _animate__zoomIn animate__slow animate__animated animate__zoomIn" style="visibility: visible;">
+								 <img src="./img/nokids.png" style="margin-top: 120px" width="250px">
+							 </div>
+							 <div class="col-md-12 text-center mt-4 _animate__zoomIn animate__slow animate__animated animate__zoomIn" style="visibility: visible;">
+
+							 </div>
+						 </div>
+					 </div>
+				 </div>
+			 </div>
+		 </div>
+	 </div><!-- .container -->
+ </section>
  <style>
 	 .horizontal-timeline .items {
 		 border-top: 3px solid #e9ecef;
@@ -999,6 +1130,7 @@
 	
 	<!--Go Top -->
 	<div id="toTop" class="scrollup two"><a href="#"><i class="fa fa-angle-double-up fa-lg"></i></a></div>
+	<div id="stopMusic" class="musicIcon"><a id="stopMusic2"><i class="fa fa-music"></i></a></div>
 	<!--Phone mail address section End-->
 	 <footer id="footer" class="footer_sec">
         <div class="container">
@@ -1146,7 +1278,7 @@
 				 </div>
 			 </div>
 		 </div> <!-- end of content -->
-
+		 <audio src="./music/Thomas-Anders-Ready-For-Romance.mp3" loop=""  class="musica audio no-responsivo" id="audio"></audio>
 
 	 </div> <!-- end of container -->
  </div> <!-- popup-wedding-ceremony -->

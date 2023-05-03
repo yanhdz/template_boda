@@ -2841,6 +2841,23 @@ margin-left:0px;
 	
 	}
 
+.musicIcon{
+	position: fixed;
+	bottom: 105px;
+	width: 40px;
+	height: 40px;
+	background: rgba(219,71,102, 0.7);
+	color: #fff;
+	font-weight: bold;
+	border-radius: 4px;
+	text-align: center;
+	z-index: 9999;
+	padding: 7px 0px;
+	cursor:pointer;
+	margin-left: 20px;
+	transition:.5s;
+}
+
 /*  Bride Groom Modal */
 body.modal-open {
     overflow: hidden;
@@ -3365,12 +3382,56 @@ div.timeline_img:hover .inner-extra p{
     height: 100%;
 }
 
-#logo_n{
-	padding-left:16px;
-	z-index:999999;
-	margin-top:-165px;
-	margin-left:20px;
+@media (min-width: 350px){
+	#logo_n{
+		width: 500px;
+		padding-left:16px;
+		z-index:999999;
+		margin-top: 150px;
+		margin-left:-70px;
 	}
+	.btn-modal{
+		background-color: #590d17;
+		/* border: solid 2px #ebb6a8; */
+		border-radius: 20px !important;
+		margin-left: 120px!important;
+		padding: 4px 40px !important;
+		color: #f7faf3;
+		position: center;
+		font-size: 1.2rem !important;
+	}
+}
+
+@media (min-width: 800px){
+	#logo_n{
+		width: 590px;
+		padding-left:0px;
+		z-index:999999;
+		margin-top: 150px;
+		margin-left:0px;
+	}
+}
+@media  (min-width:1080px){
+	#logo_n {
+		width: 655px;
+		padding-left: 0px;
+		z-index: 999999;
+		margin-top: 139px;
+		margin-left: 32%;
+	}
+	.btn-modal{
+		background-color: #590d17;
+		/* border: solid 2px #ebb6a8; */
+		border-radius: 20px !important;
+		margin-left:767px!important;
+		padding: 4px 40px !important;
+		color: #f7faf3;
+		position: center;
+		font-size: 1.2rem !important;
+	}
+}
+
+
 
 .loader {
     margin: 3em auto;

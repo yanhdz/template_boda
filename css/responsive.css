@@ -755,7 +755,7 @@
   left:0;
   right:0;
   bottom:0;
-  background-color:#f4c47a;
+  background-color:rgba(234, 189, 89, .7);
   z-index:9999999999;
 }
 
