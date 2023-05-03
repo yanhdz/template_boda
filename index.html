@@ -29,15 +29,17 @@
 
 
 		window.addEventListener("load", function() {
-			document.body.addEventListener("mousemove", function () {
-				var audio = document.getElementById("audio");
-				audio.play();
-			})
 
-			var audio = document.getElementsByTagName("audio")[0];
+
+			var audio = document.getElementById("audio");
+			var preloadButton = document.getElementById("hidePreloader");
 			var muteButton = document.getElementById("stopMusic");
 			var musicIcon = muteButton.querySelector("i");
 
+
+			preloadButton.addEventListener("click", function() {
+				audio.play();
+			});
 			muteButton.addEventListener("click", function() {
 
 				if (audio.muted) {
